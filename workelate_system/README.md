@@ -1,12 +1,3 @@
-# WorkElate Agent (Groq-only)
-
-Stateful task agent starter:
-- Planning (task decomposition)
-- Execution (tool calls)
-- Memory + preferences (persisted)
-- Decision tracing (audit trail)
-- Feedback logging
-
 ## Setup
 
 python -m venv .venv
