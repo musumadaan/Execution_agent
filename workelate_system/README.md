@@ -14,7 +14,8 @@ source .venv/bin/activate
 pip install -U pip
 pip install -e .
 cp .env.example .env
-# Add GROQ_API_KEY in .env and get the key value from the project docs 
+
+### Add GROQ_API_KEY in .env and get the key value from the project docs 
 uvicorn app.main:app --reload
 
 
